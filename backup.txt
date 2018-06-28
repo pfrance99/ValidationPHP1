@@ -1,0 +1,7 @@
+{   "accounts": [
+        {
+            "email": "paulfrance99@gmail.com",
+            "password": "testtesttest"
+        }
+    ]
+}
