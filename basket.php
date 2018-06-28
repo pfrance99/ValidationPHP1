@@ -17,7 +17,11 @@
     if(isset($_SESSION['basket'])){
       foreach ($_SESSION['basket'] as $name => $price) {
         echo '<div class="line-list">
-                <h5>'.$name.'</h5>
+              <h5>'.$name.'</h5>
+              <form class="fixed-right" role="addBasket" method="POST" action="./scripts/removeBasketAction.php">
+                <input type="hidden" name="title" value="'.$name.'">
+                <button type="submit" class="btn btn-default">X</button>
+              </form>
                 <p>'.$price.'.00€</p>
               </div>';
         $total += intval($price); 

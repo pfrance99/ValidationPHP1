@@ -1,7 +1,7 @@
 <nav class="navbar navbar-default">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand">eCommerce</a>
+      <a class="navbar-brand">Cours(es)</a>
     </div>
     <ul class="nav navbar-nav">
     <?php $page = basename($_SERVER["PHP_SELF"]); 

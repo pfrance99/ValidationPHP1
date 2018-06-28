@@ -185,3 +185,20 @@ html{
 .line-list > h5 {
     margin: 0;
 }
+
+.fixed-right{
+    position: relative;
+    right: -30px;
+}
+
+.bloc-artices>h5{
+    margin: 0;
+}
+
+.line-list-child{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
